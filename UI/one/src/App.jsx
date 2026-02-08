@@ -8,7 +8,8 @@ function App() {
 
   return (
     <>
-    <h1 className='text-4xl'>This is tailwind css</h1>
+    <h1 className='text-4xl'>This is tailwind css <button onClick={() => setCount(count + 1)}>
+      {count}</button></h1>
     </>
   )
 }
